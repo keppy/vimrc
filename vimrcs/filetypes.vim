@@ -1,4 +1,9 @@
 """"""""""""""""""""""""""""""
+" => Handlebars section
+""""""""""""""""""""""""""""""
+au BufNewFile,BufRead *.hbs set syntax=html
+
+""""""""""""""""""""""""""""""
 " => Python section
 """"""""""""""""""""""""""""""
 let python_highlight_all = 1
